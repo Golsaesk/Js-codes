@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Timer">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Timer
+    </title>
+</head>
+<body>
+    <h1>Timer</h1>
+    <div id="buttons">
+        <button id="btnStart" onclick="start()">Start</button>
+        <button id="btnStop" onclick="stop()">Stop</button>
+    </div>
+
+    <div id="clockdiv">
+        <div>
+            <span id="day" class="days"></span>
+            <div class="smalltext">Days</div>
+        </div>
+        <div>
+            <span id="hour" class="hours"></span>
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+            <span id="min" class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+            <span id="sec" class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+        </div>
+    </div>
+    <div id="currTime">
+        <span id="currentTime">
+
+        </span>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
